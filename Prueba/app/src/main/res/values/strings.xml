@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Prueba</string>
+    <string name="hint_pass">Introduce pass</string>
+    <string name="hint_correo">Introduce correo</string>
+    <string name="btm_inicio">Iniciar Sesión</string>
+    <string name="btn_registro">Registrarse</string>
     <string-array name="perfiles">
         <item>Admnistrador</item>
         <item>Usuario</item>

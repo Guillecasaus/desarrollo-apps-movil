@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test</string>
+    <string name="hint_pass">Enter pass</string>
+    <string name="hint_correo">Enter email</string>
+    <string name="btm_inicio">Login in</string>
+    <string name="btn_registro">Register</string>
+    <string-array name="perfiles">
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+</resources>

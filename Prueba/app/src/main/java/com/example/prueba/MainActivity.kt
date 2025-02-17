@@ -29,10 +29,17 @@ class MainActivity : AppCompatActivity() {
         spinnerPerfil = findViewById(R.id.spinnerPerfil)
         editCorreo = findViewById(R.id.editCorreo)
         editPass = findViewById(R.id.editPass)
-
         check = findViewById(R.id.checkInicio)
         buttonLogin = findViewById(R.id.btnLogin)
+
         acciones()
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        editCorreo.text.clear()
+        editPass.text.clear()
+        check.isChecked = false
     }
 
     private fun acciones(){
@@ -53,5 +60,9 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
     }
 }
